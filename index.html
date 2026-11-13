@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chawla AI Consulting — AI consulting and engineering from Karnal, Haryana. Data pipelines, computer vision, LLM automation, and robotics data infrastructure."
+    />
+    <title>Chawla AI Consulting · AI that works in production</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="nav" id="nav" data-scrolled="false">
+      <div class="nav__inner">
+        <a class="nav__wordmark" href="#top">Chawla AI Consulting</a>
+        <nav class="nav__links" aria-label="Primary">
+          <a href="#services">Services</a>
+          <a href="#robotics">Robotics Data</a>
+          <a href="#process">Process</a>
+          <a href="#engagements">Engagements</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+        <a class="btn btn--primary nav__cta" href="#contact">
+          Book a discovery call
+          <span class="btn__arrow" aria-hidden="true">→</span>
+        </a>
+        <button
+          class="nav__menu-btn"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Mobile">
+        <a href="#services">Services</a>
+        <a href="#robotics">Robotics Data</a>
+        <a href="#process">Process</a>
+        <a href="#engagements">Engagements</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn--primary" href="#contact">
+          Book a discovery call
+          <span class="btn__arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
+    </div>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero" id="top">
+        <div class="container hero__grid">
+          <div class="hero__copy reveal">
+            <p class="eyebrow">AI CONSULTING AND ENGINEERING · KARNAL, INDIA</p>
+            <h1>Your data, cleaned, labeled and running on its own.</h1>
+            <p class="hero__lede">
+              Chawla AI Consulting is an AI consulting and engineering firm based
+              in Karnal, Haryana. We design, build and operate automation
+              pipelines for companies that need AI to work in production, not
+              just in a demo.
+            </p>
+            <p class="chip">Pilot pipeline on your own data in 4 weeks</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#contact">
+                Book a discovery call
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+              <a class="btn btn--secondary" href="#case-study">
+                See our work
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+            <ul class="trust-strip" aria-label="Capabilities">
+              <li>Data pipelines</li>
+              <li>Computer vision</li>
+              <li>LLM automation</li>
+              <li>Robotics and embodied AI</li>
+              <li>MLOps</li>
+            </ul>
+          </div>
+
+          <div class="hero__media reveal" data-delay="1">
+            <div class="carousel" data-carousel>
+              <div class="carousel__frame">
+                <div class="carousel__slides" data-slides>
+                  <figure class="carousel__slide is-active" data-caption="Auto-segmentation · 6 cameras · synced to 1 ms">
+                    <svg viewBox="0 0 640 400" role="img" aria-label="Raw egocentric frame next to hand and object segmentation masks">
+                      <rect width="640" height="400" fill="#2A2824"/>
+                      <rect x="16" y="16" width="296" height="320" rx="8" fill="#3D3A34"/>
+                      <text x="164" y="180" text-anchor="middle" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="12">RAW FRAME</text>
+                      <ellipse cx="120" cy="220" rx="40" ry="28" fill="#5A564C" opacity=".6"/>
+                      <ellipse cx="200" cy="200" rx="50" ry="36" fill="#6B675C" opacity=".5"/>
+                      <rect x="328" y="16" width="296" height="320" rx="8" fill="#1F5C46"/>
+                      <text x="476" y="50" text-anchor="middle" fill="#A8D5C4" font-family="JetBrains Mono, monospace" font-size="11">LABELED</text>
+                      <path d="M380 140 C400 120 440 130 450 170 C460 210 430 250 400 240 C370 230 360 180 380 140Z" fill="#D98E2B" opacity=".85"/>
+                      <path d="M470 180 C510 160 560 190 550 230 C540 270 490 280 470 250 C450 220 450 200 470 180Z" fill="#7EC8A8" opacity=".9"/>
+                      <rect x="360" y="260" width="80" height="18" rx="4" fill="#F3F1EC" opacity=".9"/>
+                      <text x="400" y="273" text-anchor="middle" fill="#1C1B19" font-family="JetBrains Mono, monospace" font-size="9">hand</text>
+                      <rect x="500" y="250" width="70" height="18" rx="4" fill="#F3F1EC" opacity=".9"/>
+                      <text x="535" y="263" text-anchor="middle" fill="#1C1B19" font-family="JetBrains Mono, monospace" font-size="9">tool</text>
+                      <text x="320" y="372" text-anchor="middle" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="11">before → after</text>
+                    </svg>
+                  </figure>
+                  <figure class="carousel__slide" data-caption="Episode sync · IMU + cameras · sub-ms clock">
+                    <svg viewBox="0 0 640 400" role="img" aria-label="Multi-stream timeline synchronized to a single clock">
+                      <rect width="640" height="400" fill="#1C1B19"/>
+                      <text x="32" y="40" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="12">SYNC TIMELINE</text>
+                      <line x1="80" y1="80" x2="600" y2="80" stroke="#1F5C46" stroke-width="2"/>
+                      <g font-family="JetBrains Mono, monospace" font-size="11" fill="#A8D5C4">
+                        <text x="32" y="120">CAM</text>
+                        <rect x="100" y="108" width="180" height="16" rx="3" fill="#1F5C46"/>
+                        <rect x="300" y="108" width="140" height="16" rx="3" fill="#1F5C46" opacity=".7"/>
+                        <rect x="460" y="108" width="100" height="16" rx="3" fill="#1F5C46"/>
+                        <text x="32" y="170">IMU</text>
+                        <rect x="100" y="158" width="460" height="12" rx="3" fill="#D98E2B" opacity=".8"/>
+                        <text x="32" y="220">HAND</text>
+                        <rect x="140" y="208" width="120" height="16" rx="3" fill="#7EC8A8"/>
+                        <rect x="280" y="208" width="160" height="16" rx="3" fill="#7EC8A8" opacity=".75"/>
+                        <rect x="460" y="208" width="80" height="16" rx="3" fill="#7EC8A8"/>
+                        <text x="32" y="270">STATE</text>
+                        <rect x="100" y="258" width="460" height="10" rx="3" fill="#5F5B53"/>
+                      </g>
+                      <circle cx="300" cy="80" r="6" fill="#D98E2B"/>
+                      <text x="300" y="320" text-anchor="middle" fill="#F3F1EC" font-family="Inter, sans-serif" font-size="14">Joined into one episode record</text>
+                    </svg>
+                  </figure>
+                  <figure class="carousel__slide" data-caption="Task phases · reach · grasp · place · release">
+                    <svg viewBox="0 0 640 400" role="img" aria-label="Action phase segmentation across an episode">
+                      <rect width="640" height="400" fill="#F3F1EC"/>
+                      <text x="32" y="40" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="12">ACTION PHASES</text>
+                      <rect x="40" y="80" width="560" height="48" rx="8" fill="#E2DED5"/>
+                      <rect x="48" y="88" width="90" height="32" rx="4" fill="#1F5C46"/>
+                      <rect x="142" y="88" width="110" height="32" rx="4" fill="#174A38"/>
+                      <rect x="256" y="88" width="130" height="32" rx="4" fill="#D98E2B"/>
+                      <rect x="390" y="88" width="100" height="32" rx="4" fill="#1F5C46" opacity=".7"/>
+                      <rect x="494" y="88" width="98" height="32" rx="4" fill="#5F5B53"/>
+                      <g font-family="JetBrains Mono, monospace" font-size="10" fill="#F3F1EC" text-anchor="middle">
+                        <text x="93" y="108">reach</text>
+                        <text x="197" y="108">grasp</text>
+                        <text x="321" y="108">move</text>
+                        <text x="440" y="108">place</text>
+                        <text x="543" y="108">release</text>
+                      </g>
+                      <rect x="40" y="180" width="260" height="160" rx="12" fill="#fff" stroke="#E2DED5"/>
+                      <text x="60" y="210" fill="#1C1B19" font-family="Inter Tight, sans-serif" font-size="16" font-weight="600">Episode 0142</text>
+                      <text x="60" y="240" fill="#5F5B53" font-family="Inter, sans-serif" font-size="13">Duration 48.2 s · 5 phases</text>
+                      <text x="60" y="270" fill="#1F5C46" font-family="JetBrains Mono, monospace" font-size="12">SUCCESS = true</text>
+                      <text x="60" y="300" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="11">conf 0.94</text>
+                      <rect x="320" y="180" width="280" height="160" rx="12" fill="#1C1B19"/>
+                      <circle cx="400" cy="260" r="36" fill="none" stroke="#1F5C46" stroke-width="8"/>
+                      <circle cx="480" cy="240" r="24" fill="none" stroke="#D98E2B" stroke-width="6"/>
+                      <circle cx="520" cy="280" r="18" fill="none" stroke="#7EC8A8" stroke-width="5"/>
+                      <text x="460" y="330" text-anchor="middle" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="10">KEYPOINTS</text>
+                    </svg>
+                  </figure>
+                  <figure class="carousel__slide" data-caption="QC gate · drift · drops · occlusion flags">
+                    <svg viewBox="0 0 640 400" role="img" aria-label="Quality control dashboard with pass and fail flags">
+                      <rect width="640" height="400" fill="#fff"/>
+                      <text x="32" y="40" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="12">QUALITY CONTROL</text>
+                      <g font-family="Inter, sans-serif" font-size="14">
+                        <rect x="32" y="70" width="280" height="70" rx="10" fill="#F3F1EC" stroke="#E2DED5"/>
+                        <circle cx="64" cy="105" r="10" fill="#1F5C46"/>
+                        <text x="90" y="100" fill="#1C1B19" font-weight="600">Frame continuity</text>
+                        <text x="90" y="120" fill="#5F5B53" font-size="12">0 dropped frames</text>
+                        <rect x="328" y="70" width="280" height="70" rx="10" fill="#F3F1EC" stroke="#E2DED5"/>
+                        <circle cx="360" cy="105" r="10" fill="#1F5C46"/>
+                        <text x="386" y="100" fill="#1C1B19" font-weight="600">Clock sync</text>
+                        <text x="386" y="120" fill="#5F5B53" font-size="12">drift &lt; 1 ms</text>
+                        <rect x="32" y="160" width="280" height="70" rx="10" fill="#F3F1EC" stroke="#E2DED5"/>
+                        <circle cx="64" cy="195" r="10" fill="#D98E2B"/>
+                        <text x="90" y="190" fill="#1C1B19" font-weight="600">Occlusion</text>
+                        <text x="90" y="210" fill="#5F5B53" font-size="12">flagged · review queue</text>
+                        <rect x="328" y="160" width="280" height="70" rx="10" fill="#F3F1EC" stroke="#E2DED5"/>
+                        <circle cx="360" cy="195" r="10" fill="#1F5C46"/>
+                        <text x="386" y="190" fill="#1C1B19" font-weight="600">Calibration</text>
+                        <text x="386" y="210" fill="#5F5B53" font-size="12">intrinsics OK</text>
+                      </g>
+                      <rect x="32" y="260" width="576" height="100" rx="12" fill="#1F5C46"/>
+                      <text x="56" y="310" fill="#F3F1EC" font-family="Inter Tight, sans-serif" font-size="22" font-weight="600">Episode ready for export</text>
+                      <text x="56" y="338" fill="#A8D5C4" font-family="JetBrains Mono, monospace" font-size="12">LeRobot · RLDS · HDF5</text>
+                    </svg>
+                  </figure>
+                  <figure class="carousel__slide" data-caption="Export · LeRobot / RLDS · versioned data card">
+                    <svg viewBox="0 0 640 400" role="img" aria-label="Dataset packaging and versioned delivery">
+                      <rect width="640" height="400" fill="#1C1B19"/>
+                      <rect x="48" y="48" width="240" height="300" rx="12" fill="#2A2824" stroke="#E2DED5" stroke-opacity=".2"/>
+                      <text x="68" y="88" fill="#D98E2B" font-family="JetBrains Mono, monospace" font-size="11">dataset.yaml</text>
+                      <text x="68" y="120" fill="#A8D5C4" font-family="JetBrains Mono, monospace" font-size="12">name: pick_place_v3</text>
+                      <text x="68" y="148" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="12">episodes: 4,812</text>
+                      <text x="68" y="176" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="12">fps: 30</text>
+                      <text x="68" y="204" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="12">cameras: 6</text>
+                      <text x="68" y="232" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="12">format: lerobot</text>
+                      <rect x="320" y="48" width="272" height="140" rx="12" fill="#1F5C46"/>
+                      <text x="344" y="96" fill="#F3F1EC" font-family="Inter Tight, sans-serif" font-size="20" font-weight="600">v3.2.1</text>
+                      <text x="344" y="128" fill="#A8D5C4" font-family="Inter, sans-serif" font-size="14">Versioned release</text>
+                      <text x="344" y="156" fill="#A8D5C4" font-family="JetBrains Mono, monospace" font-size="11">SHA-256 verified</text>
+                      <rect x="320" y="208" width="272" height="140" rx="12" fill="#2A2824" stroke="#E2DED5" stroke-opacity=".2"/>
+                      <text x="344" y="256" fill="#F3F1EC" font-family="Inter Tight, sans-serif" font-size="18" font-weight="600">Data card</text>
+                      <text x="344" y="288" fill="#8A857B" font-family="Inter, sans-serif" font-size="13">Sites · sensors · license</text>
+                      <text x="344" y="316" fill="#8A857B" font-family="Inter, sans-serif" font-size="13">QC summary included</text>
+                    </svg>
+                  </figure>
+                  <figure class="carousel__slide" data-caption="Feedback loop · failures → new collection targets">
+                    <svg viewBox="0 0 640 400" role="img" aria-label="Evaluation failures linked back to data collection">
+                      <rect width="640" height="400" fill="#F3F1EC"/>
+                      <text x="32" y="40" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="12">EVAL → DATA LOOP</text>
+                      <rect x="60" y="100" width="140" height="80" rx="12" fill="#fff" stroke="#E2DED5"/>
+                      <text x="130" y="146" text-anchor="middle" fill="#1C1B19" font-family="Inter Tight, sans-serif" font-size="15" font-weight="600">Model fail</text>
+                      <path d="M210 140 H270" stroke="#1F5C46" stroke-width="2" marker-end="url(#arrow)"/>
+                      <rect x="270" y="100" width="140" height="80" rx="12" fill="#fff" stroke="#E2DED5"/>
+                      <text x="340" y="146" text-anchor="middle" fill="#1C1B19" font-family="Inter Tight, sans-serif" font-size="15" font-weight="600">Gap tag</text>
+                      <path d="M420 140 H480" stroke="#1F5C46" stroke-width="2"/>
+                      <rect x="480" y="100" width="120" height="80" rx="12" fill="#1F5C46"/>
+                      <text x="540" y="146" text-anchor="middle" fill="#F3F1EC" font-family="Inter Tight, sans-serif" font-size="15" font-weight="600">Collect</text>
+                      <rect x="120" y="240" width="400" height="100" rx="12" fill="#1C1B19"/>
+                      <text x="320" y="286" text-anchor="middle" fill="#F3F1EC" font-family="Inter, sans-serif" font-size="15">Occlusion under fluorescent light</text>
+                      <text x="320" y="314" text-anchor="middle" fill="#D98E2B" font-family="JetBrains Mono, monospace" font-size="12">+120 target episodes queued</text>
+                    </svg>
+                  </figure>
+                </div>
+              </div>
+              <div class="carousel__meta">
+                <p class="carousel__caption mono" data-carousel-caption>Auto-segmentation · 6 cameras · synced to 1 ms</p>
+                <div class="carousel__controls">
+                  <button type="button" class="carousel__btn" data-carousel-prev aria-label="Previous slide">←</button>
+                  <span class="carousel__counter mono" data-carousel-counter>01 / 06</span>
+                  <button type="button" class="carousel__btn" data-carousel-next aria-label="Next slide">→</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section class="stats" aria-label="Key figures">
+        <div class="container">
+          <div class="stats__grid">
+            <div class="stats__item">
+              <p class="stats__num" data-count="40" data-suffix="+">0</p>
+              <p class="stats__label">projects delivered</p>
+            </div>
+            <div class="stats__item">
+              <p class="stats__num" data-count="6" data-suffix="">0</p>
+              <p class="stats__label">industries served</p>
+            </div>
+            <div class="stats__item">
+              <p class="stats__num" data-count="12000" data-suffix="+">0</p>
+              <p class="stats__label">hours of video processed</p>
+            </div>
+            <div class="stats__item">
+              <p class="stats__num" data-count="70" data-suffix="%">0</p>
+              <p class="stats__label">average cut in labeling time</p>
+            </div>
+            <div class="stats__item">
+              <p class="stats__num" data-count="8" data-suffix="">0</p>
+              <p class="stats__label">countries with clients</p>
+            </div>
+            <div class="stats__item">
+              <p class="stats__num" data-count="4" data-suffix="">0</p>
+              <p class="stats__label">weeks average time to first pipeline</p>
+            </div>
+          </div>
+          <p class="stats__footnote mono">Figures as of November 2026. Replace with measured values when ready.</p>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section about" id="about">
+        <div class="container">
+          <p class="section__label mono">00 / ABOUT</p>
+          <h2>Practical AI, owned by the client.</h2>
+          <div class="about__grid">
+            <div class="about__main reveal">
+              <p>
+                We are a team of ML engineers, data engineers and domain
+                specialists who have shipped AI in factories, farms, hospitals,
+                banks and research labs. Most AI projects stall in the same
+                place: the data is scattered, unlabeled, out of sync and too
+                expensive to clean by hand. That is where we start.
+              </p>
+              <p>
+                We work from Karnal, Haryana with clients across India, the US,
+                Europe and Southeast Asia, which lets us combine senior
+                engineering with cost-efficient delivery and round-the-clock
+                turnaround.
+              </p>
+              <p class="about__mission">
+                <strong>Our mission:</strong> make AI adoption practical,
+                measurable and owned by our clients.
+              </p>
+            </div>
+            <aside class="about__card reveal" data-delay="1">
+              <p class="mono muted">LEADERSHIP</p>
+              <h3>Geeta Chawla</h3>
+              <p>
+                Chawla AI Consulting is headed by Geeta Chawla, who leads the
+                firm's strategy, client partnerships and delivery.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- 01 SERVICES -->
+      <section class="section" id="services">
+        <div class="container">
+          <p class="section__label mono">01 / SERVICES</p>
+          <h2>What we do</h2>
+          <p class="section__intro">
+            From readiness audits to production MLOps — systems that run every day.
+          </p>
+          <div class="card-grid card-grid--3">
+            <article class="card reveal">
+              <div class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19h16M7 16V8m5 8V5m5 11v-6"/></svg>
+              </div>
+              <h3>AI strategy and readiness</h3>
+              <p>
+                We audit your data, workflows and tools, find where AI will pay
+                off first, and give you a roadmap with costs, timelines and
+                expected ROI.
+              </p>
+              <p class="card__metric">Clear ROI before you build</p>
+            </article>
+            <article class="card reveal" data-delay="1">
+              <div class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7h16M4 12h10M4 17h14"/><circle cx="18" cy="12" r="2"/></svg>
+              </div>
+              <h3>Data engineering and pipeline automation</h3>
+              <p>
+                Pipelines that ingest from many sources, clean, align and deliver
+                data in the format your models or teams need.
+              </p>
+              <p class="card__metric">Multi-source → model-ready</p>
+            </article>
+            <article class="card reveal" data-delay="2">
+              <div class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M8 9h3v3H8zM13 9h3M13 14h5"/></svg>
+              </div>
+              <h3>Automated annotation and labeling</h3>
+              <p>
+                Model-assisted pipelines: auto-segmentation, detection, action
+                labeling, and human review only where the model is unsure.
+              </p>
+              <p class="card__metric">Up to 70% less manual labeling</p>
+            </article>
+            <article class="card reveal">
+              <div class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M4 12h5M15 12h5M12 4v5M12 15v5"/></svg>
+              </div>
+              <h3>Computer vision and multimodal AI</h3>
+              <p>
+                Detection, segmentation, tracking, pose estimation, 3D
+                reconstruction and video understanding for real cameras and edge
+                hardware.
+              </p>
+              <p class="card__metric">Built for real-world setups</p>
+            </article>
+            <article class="card reveal" data-delay="1">
+              <div class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 8h14v10H5zM9 8V6a3 3 0 016 0v2"/><path d="M9 13h6"/></svg>
+              </div>
+              <h3>LLM and agent automation</h3>
+              <p>
+                Document processing, knowledge assistants, report generation and
+                agent workflows with guardrails and evaluation.
+              </p>
+              <p class="card__metric">Connected to your stack</p>
+            </article>
+            <article class="card reveal" data-delay="2">
+              <div class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 4v4M12 16v4M4 12h4M16 12h4"/><circle cx="12" cy="12" r="3"/></svg>
+              </div>
+              <h3>MLOps and deployment</h3>
+              <p>
+                Training infrastructure, evaluation, monitoring and retraining
+                loops so models keep improving after launch.
+              </p>
+              <p class="card__metric">Models that do not decay</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02 INDUSTRIES -->
+      <section class="section section--alt" id="industries">
+        <div class="container">
+          <p class="section__label mono">02 / INDUSTRIES</p>
+          <h2>Industries we serve</h2>
+          <p class="section__intro">
+            Domain depth across physical and knowledge-work industries.
+          </p>
+          <div class="table-wrap reveal">
+            <table class="industry-table">
+              <thead>
+                <tr>
+                  <th>Industry</th>
+                  <th>Example use cases</th>
+                  <th>Typical outcome</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Robotics and embodied AI</td>
+                  <td>Demonstration data, simulation, evaluation</td>
+                  <td>Faster path from recording to training</td>
+                </tr>
+                <tr>
+                  <td>Manufacturing</td>
+                  <td>Visual inspection, process monitoring, worker-task analytics</td>
+                  <td>Fewer defects, less manual review</td>
+                </tr>
+                <tr>
+                  <td>Agriculture</td>
+                  <td>Crop and field imaging, yield estimation, farm automation</td>
+                  <td>Actionable field insights at scale</td>
+                </tr>
+                <tr>
+                  <td>Healthcare and life sciences</td>
+                  <td>Medical image workflows, document automation</td>
+                  <td>Auditable, compliant throughput</td>
+                </tr>
+                <tr>
+                  <td>Financial services</td>
+                  <td>Document processing, risk analytics, compliance automation</td>
+                  <td>Lower ops cost with guardrails</td>
+                </tr>
+                <tr>
+                  <td>Retail and logistics</td>
+                  <td>Demand forecasting, warehouse vision, catalog automation</td>
+                  <td>Faster decisions across the chain</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="section__link">
+            <a href="#contact">Talk to us about your industry →</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- 03 ROBOTICS -->
+      <section class="section" id="robotics">
+        <div class="container">
+          <p class="section__label mono">03 / ROBOTICS DATA PIPELINE</p>
+          <h2>Flagship: data infrastructure for robotics and embodied AI</h2>
+          <p class="section__intro">
+            Robot learning companies collect huge volumes of demonstration data.
+            Before any of it can train a policy, it has to be synchronized,
+            segmented, annotated and packaged. We build the automation layer that
+            turns raw recordings into model-ready episodes.
+          </p>
+
+          <div class="robotics__layout">
+            <div class="pipeline-schematic reveal" aria-label="Pipeline stages">
+              <div class="pipeline-schematic__title mono">PIPELINE</div>
+              <ol class="pipeline-flow">
+                <li>Ingest</li>
+                <li>Sync</li>
+                <li>Segment</li>
+                <li>Annotate</li>
+                <li>QC</li>
+                <li>Export</li>
+                <li>Feedback</li>
+              </ol>
+              <p class="pipeline-schematic__note">
+                Outcome: faster turnaround, lower cost per labeled episode,
+                consistent quality across sites, and a pipeline that scales as
+                collection grows.
+              </p>
+            </div>
+
+            <dl class="def-grid reveal" data-delay="1">
+              <div>
+                <dt>Inputs</dt>
+                <dd>Headset video, multi-camera rigs, IMU, grippers, teleop logs</dd>
+              </div>
+              <div>
+                <dt>Sync</dt>
+                <dd>Single clock, sub-millisecond target</dd>
+              </div>
+              <div>
+                <dt>Segmentation</dt>
+                <dd>Episodes, sub-tasks, masks</dd>
+              </div>
+              <div>
+                <dt>Annotation</dt>
+                <dd>Language, success labels, keypoints</dd>
+              </div>
+              <div>
+                <dt>QC</dt>
+                <dd>Drift, drops, occlusion checks</dd>
+              </div>
+              <div>
+                <dt>Output formats</dt>
+                <dd>LeRobot, RLDS, HDF5, Parquet</dd>
+              </div>
+              <div class="def-grid__wide">
+                <dt>Delivery</dt>
+                <dd>Versioned datasets with data cards</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="automate-list reveal">
+            <h3>What we automate</h3>
+            <ul>
+              <li>
+                <strong>Ingestion from many sources</strong> — in-house rigs,
+                partner factories, customer-supplied logs and teleop sessions.
+              </li>
+              <li>
+                <strong>Time alignment and joining</strong> — cameras, IMU, hand
+                skeletons, encoders and robot state on one clock.
+              </li>
+              <li>
+                <strong>Episode and task segmentation</strong> — tasks,
+                sub-tasks and action phases using vision and motion signals.
+              </li>
+              <li>
+                <strong>Scene and object segmentation</strong> — per-frame masks
+                for hands, tools, objects and workspaces.
+              </li>
+              <li>
+                <strong>Annotation</strong> — language descriptions, success and
+                failure labels, contact events and keypoints with review queues.
+              </li>
+              <li>
+                <strong>Quality control</strong> — dropped frames, sync drift,
+                occlusions, calibration errors and incomplete episodes.
+              </li>
+              <li>
+                <strong>Packaging and delivery</strong> — LeRobot, RLDS and
+                versioned datasets with clear data cards.
+              </li>
+              <li>
+                <strong>Feedback from evaluation</strong> — model failures linked
+                back so new collection targets the gaps.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- CASE STUDY -->
+      <section class="section section--alt" id="case-study">
+        <div class="container">
+          <article class="case reveal">
+            <div class="case__media" aria-hidden="true">
+              <svg viewBox="0 0 480 520" role="img" aria-label="">
+                <rect width="480" height="520" fill="#1C1B19"/>
+                <rect x="32" y="40" width="416" height="240" rx="12" fill="#2A2824"/>
+                <path d="M80 180 C140 120 220 140 260 200 C300 260 380 240 400 180" fill="none" stroke="#1F5C46" stroke-width="4"/>
+                <circle cx="160" cy="160" r="28" fill="#D98E2B" opacity=".8"/>
+                <circle cx="280" cy="200" r="36" fill="#7EC8A8" opacity=".7"/>
+                <text x="240" y="320" text-anchor="middle" fill="#F3F1EC" font-family="Inter Tight, sans-serif" font-size="22" font-weight="600">Robot-learning data</text>
+                <text x="240" y="352" text-anchor="middle" fill="#8A857B" font-family="JetBrains Mono, monospace" font-size="12">MULTI-SITE · MULTI-RIG</text>
+                <rect x="48" y="390" width="120" height="72" rx="10" fill="#1F5C46"/>
+                <rect x="180" y="390" width="120" height="72" rx="10" fill="#2A2824" stroke="#E2DED5" stroke-opacity=".25"/>
+                <rect x="312" y="390" width="120" height="72" rx="10" fill="#2A2824" stroke="#E2DED5" stroke-opacity=".25"/>
+              </svg>
+            </div>
+            <div class="case__body">
+              <p class="mono muted">CASE STUDY</p>
+              <h2>From days of manual labeling to an automated episode pipeline</h2>
+              <p class="case__client">
+                <strong>Client:</strong> a robot-learning data company collecting
+                human and robot demonstrations across several countries.
+              </p>
+              <div class="case__block">
+                <h3>Challenge</h3>
+                <p>
+                  Data arrived from many rigs and partner sites in different
+                  formats. Syncing, segmenting and labeling each episode took
+                  days of manual work, and quality varied by site.
+                </p>
+              </div>
+              <div class="case__block">
+                <h3>What we built</h3>
+                <p>
+                  An automated pipeline for ingestion, clock alignment, task
+                  segmentation, hand and object masks, language annotation and
+                  QC, with export to the client's training formats and a review
+                  tool for low-confidence cases.
+                </p>
+              </div>
+              <div class="case__results">
+                <div>
+                  <p class="stats__num">70%</p>
+                  <p class="stats__label">less labeling time</p>
+                </div>
+                <div>
+                  <p class="stats__num">3×</p>
+                  <p class="stats__label">faster episode turnaround</p>
+                </div>
+                <div>
+                  <p class="stats__num">1</p>
+                  <p class="stats__label">QC standard across sites</p>
+                </div>
+              </div>
+              <p class="case__footnote mono">
+                Results are illustrative placeholders — replace with measured figures.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 04 ENGAGEMENTS -->
+      <section class="section" id="engagements">
+        <div class="container">
+          <p class="section__label mono">04 / ENGAGEMENT MODELS</p>
+          <h2>How you can work with us</h2>
+          <p class="section__intro">Choose the model that fits your stage and risk profile.</p>
+          <div class="card-grid card-grid--4">
+            <article class="card card--featured reveal">
+              <span class="card__tag">Most popular</span>
+              <h3>Fixed-scope project</h3>
+              <p>Defined deliverables and timeline.</p>
+              <ul>
+                <li>Scoped roadmap and milestones</li>
+                <li>Fixed budget and acceptance criteria</li>
+                <li>Full IP transfer at handoff</li>
+              </ul>
+              <a class="btn btn--primary" href="#contact">
+                Get a quote
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </article>
+            <article class="card reveal" data-delay="1">
+              <h3>Dedicated team</h3>
+              <p>An embedded pod working as part of your team.</p>
+              <ul>
+                <li>Weekly planning with your leads</li>
+                <li>Shared tools and repos</li>
+                <li>Flexible capacity month to month</li>
+              </ul>
+              <a class="btn btn--secondary" href="#contact">
+                Get a quote
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </article>
+            <article class="card reveal" data-delay="2">
+              <h3>Managed pipeline</h3>
+              <p>We run and maintain the pipeline for you monthly.</p>
+              <ul>
+                <li>SLAs for throughput and quality</li>
+                <li>Monitoring and incident response</li>
+                <li>Continuous improvement loops</li>
+              </ul>
+              <a class="btn btn--secondary" href="#contact">
+                Get a quote
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </article>
+            <article class="card reveal" data-delay="3">
+              <h3>Advisory</h3>
+              <p>Strategy, architecture review and vendor evaluation.</p>
+              <ul>
+                <li>Readiness and ROI assessments</li>
+                <li>Architecture and tooling review</li>
+                <li>Vendor shortlists with criteria</li>
+              </ul>
+              <a class="btn btn--secondary" href="#contact">
+                Get a quote
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 05 PROCESS -->
+      <section class="section section--alt" id="process">
+        <div class="container">
+          <p class="section__label mono">05 / HOW WE WORK</p>
+          <h2>From discovery to a pipeline you own</h2>
+          <p class="process__highlight mono reveal">First working pipeline in ~4 weeks</p>
+          <ol class="process-row reveal">
+            <li>
+              <span class="process-row__num">01</span>
+              <h3>Discover</h3>
+              <p class="mono muted">1–2 weeks</p>
+              <p>Understand your data, goals and constraints; agree on success metrics.</p>
+            </li>
+            <li>
+              <span class="process-row__num">02</span>
+              <h3>Prototype</h3>
+              <p class="mono muted">2–4 weeks</p>
+              <p>Build a working pipeline on a real slice of your data and measure it.</p>
+            </li>
+            <li>
+              <span class="process-row__num">03</span>
+              <h3>Build</h3>
+              <p class="mono muted">Scoped</p>
+              <p>Harden the system and integrate with your stack.</p>
+            </li>
+            <li>
+              <span class="process-row__num">04</span>
+              <h3>Scale</h3>
+              <p class="mono muted">Full volume</p>
+              <p>Run on full volume across sites and formats.</p>
+            </li>
+            <li>
+              <span class="process-row__num">05</span>
+              <h3>Operate</h3>
+              <p class="mono muted">Ongoing</p>
+              <p>Monitor, retrain and hand over — or keep running it for you.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- WHY + TECH -->
+      <section class="section" id="why">
+        <div class="container">
+          <p class="section__label mono">WHY US</p>
+          <h2>Why Chawla AI Consulting</h2>
+          <div class="why-grid">
+            <article class="card reveal">
+              <h3>Production first</h3>
+              <p>We ship systems that run every day, not slide decks.</p>
+            </article>
+            <article class="card reveal" data-delay="1">
+              <h3>Domain depth</h3>
+              <p>Engineers who understand robotics, vision and the physical world.</p>
+            </article>
+            <article class="card reveal" data-delay="2">
+              <h3>You own it</h3>
+              <p>Clean code, documentation and full IP transfer.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Cost-efficient delivery from India</h3>
+              <p>Senior talent with competitive pricing and global timezone overlap.</p>
+            </article>
+            <article class="card reveal" data-delay="1">
+              <h3>Secure by design</h3>
+              <p>NDAs, access controls and data handling that fits your compliance needs.</p>
+            </article>
+          </div>
+          <div class="tech reveal">
+            <h3>Technology we use</h3>
+            <p>
+              Python, PyTorch, foundation vision and segmentation models, large
+              language models, ROS, data formats such as LeRobot, RLDS, HDF5 and
+              Parquet, cloud platforms (AWS, GCP, Azure), Kubernetes, and
+              labeling and review tools tailored to each project.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06 TRUST -->
+      <section class="section section--alt" id="trust">
+        <div class="container">
+          <p class="section__label mono">06 / TRUST AND DATA SECURITY</p>
+          <h2>Your data stays under your control</h2>
+          <p class="section__intro">Security practices designed for regulated and proprietary datasets.</p>
+          <div class="card-grid card-grid--3">
+            <article class="card card--compact reveal"><h3>NDA by default</h3><p>Every engagement starts under confidentiality.</p></article>
+            <article class="card card--compact reveal" data-delay="1"><h3>Your data stays yours</h3><p>No training on your data without written consent.</p></article>
+            <article class="card card--compact reveal" data-delay="2"><h3>Role-based access</h3><p>Least-privilege access for every engineer on the pod.</p></article>
+            <article class="card card--compact reveal"><h3>Encrypted storage and transfer</h3><p>In transit and at rest, with controlled delivery.</p></article>
+            <article class="card card--compact reveal" data-delay="1"><h3>Full IP transfer</h3><p>Code, models and docs transfer to you at handoff.</p></article>
+            <article class="card card--compact reveal" data-delay="2"><h3>Audit-ready logs</h3><p>Access and processing logs you can review.</p></article>
+          </div>
+          <p class="section__link">
+            <a href="#privacy">Read our data handling policy →</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- 07 FAQ -->
+      <section class="section" id="faq">
+        <div class="container container--narrow">
+          <p class="section__label mono">07 / FAQ</p>
+          <h2>Before you ask</h2>
+          <div class="faq" data-faq>
+            <details class="faq__item reveal">
+              <summary>What kinds of companies do you work with?</summary>
+              <p>
+                Teams that need AI in production — robotics and embodied AI
+                companies, manufacturers, agtech, healthcare, financial services,
+                and retail and logistics operators. Early startups through
+                established enterprises.
+              </p>
+            </details>
+            <details class="faq__item reveal">
+              <summary>Can you work with our existing tools and cloud?</summary>
+              <p>
+                Yes. We integrate with AWS, GCP and Azure, and with your
+                existing labeling tools, object stores, ROS stacks and training
+                formats. We adapt to your stack rather than forcing a rewrite.
+              </p>
+            </details>
+            <details class="faq__item reveal">
+              <summary>How do you price projects?</summary>
+              <p>
+                Fixed-scope projects are quoted against deliverables and
+                timeline. Dedicated teams and managed pipelines are monthly.
+                Advisory is day-rate or retainer. Discovery calls are free.
+              </p>
+            </details>
+            <details class="faq__item reveal">
+              <summary>Who owns the code and models you build?</summary>
+              <p>
+                You do. Unless we agree otherwise in writing, you receive full IP
+                transfer for custom code, models and documentation at handoff.
+              </p>
+            </details>
+            <details class="faq__item reveal">
+              <summary>How do you keep our data secure?</summary>
+              <p>
+                NDAs by default, role-based access, encrypted storage and
+                transfer, audit-ready logs, and data handling aligned to your
+                compliance needs. Your data is never used to train our own models
+                without consent.
+              </p>
+            </details>
+            <details class="faq__item reveal">
+              <summary>Do you only work on robotics?</summary>
+              <p>
+                No. Robotics data infrastructure is our flagship practice, but we
+                deliver AI strategy, data pipelines, annotation, computer vision,
+                LLM automation and MLOps across industries.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta" id="contact">
+        <div class="container container--narrow cta__inner reveal">
+          <h2>Have data piling up and no time to process it?</h2>
+          <p>
+            Tell us what you collect and what you want out of it. We will reply
+            within two business days with an approach and a rough estimate.
+          </p>
+          <div class="cta__actions">
+            <a class="btn btn--primary" href="mailto:hello@chawlaaiconsulting.com">
+              Talk to an engineer
+              <span class="btn__arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="btn btn--secondary" href="#case-study">
+              See our work
+              <span class="btn__arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+          <p class="cta__email">
+            Or email
+            <a href="mailto:hello@chawlaaiconsulting.com">hello@chawlaaiconsulting.com</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="privacy">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <a class="nav__wordmark" href="#top">Chawla AI Consulting</a>
+            <p>AI that works in production</p>
+            <p class="footer__status">
+              <span class="status-dot" aria-hidden="true"></span>
+              Accepting new projects
+            </p>
+          </div>
+          <div class="footer__cols">
+            <div>
+              <p class="footer__heading mono">Services</p>
+              <ul>
+                <li><a href="#services">Strategy</a></li>
+                <li><a href="#services">Data pipelines</a></li>
+                <li><a href="#services">Annotation</a></li>
+                <li><a href="#services">Computer vision</a></li>
+                <li><a href="#services">LLM automation</a></li>
+              </ul>
+            </div>
+            <div>
+              <p class="footer__heading mono">Company</p>
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#about">Leadership: Geeta Chawla</a></li>
+                <li><a href="mailto:hello@chawlaaiconsulting.com">Careers</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div>
+              <p class="footer__heading mono">Resources</p>
+              <ul>
+                <li><a href="#case-study">Case studies</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#trust">Data policy</a></li>
+                <li><a href="#privacy">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>© 2026 Chawla AI Consulting · Karnal, Haryana, India · Head: Geeta Chawla</p>
+          <p>
+            <a href="mailto:hello@chawlaaiconsulting.com">Email</a>
+            ·
+            <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+            · Careers · Privacy Policy
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
