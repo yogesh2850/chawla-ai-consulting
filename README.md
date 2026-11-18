@@ -1,8 +1,8 @@
 # Chawla AI Consulting
 
-Marketing website for **Chawla AI Consulting** — an AI consulting and engineering firm based in Karnal, Haryana, led by Geeta Chawla.
+Marketing website for **Chawla AI Consulting** — AI consulting and engineering from Karnal, India.
 
-Single-page site modeled on a humanmotiondata.com-style layout: sticky nav, split hero with carousel, stats strip, numbered sections, case study, FAQ, CTA, and footer.
+**Live:** https://yogesh-chawla.com/chawla-ai-consulting/
 
 ## Develop
 
@@ -11,15 +11,9 @@ npm install
 npm run dev
 ```
 
-## Build
+## Build & publish
 
 ```bash
 npm run build
-npm run preview
+# then push dist to the gh-pages branch
 ```
-
-## Notes
-
-- Contact email is set to `hello@chawlaaiconsulting.com` as a placeholder — replace before launch.
-- Stats and case-study results are illustrative placeholders; swap in measured figures when ready.
-- Hero carousel uses schematic SVG frames (before/after masks, sync, phases, QC, export, feedback). Replace with real project stills when available.
